@@ -1,0 +1,114 @@
+= System Zarządzania Zadaniami
+Autor: Jan Kowalski
+:toc:
+:toclevels: 3
+:icons: font
+:source-highlighter: highlight.js
+
+== Wprowadzenie
+
+System Zarządzania Zadaniami to aplikacja umożliwiająca tworzenie,
+edycję i śledzenie zadań w zespole.
+
+NOTE: Ten dokument jest przykładem możliwości AsciiDoc.
+
+== Wymagania
+
+Aby uruchomić aplikację, potrzebujesz:
+
+* Node.js >= 18
+* npm lub yarn
+* Przeglądarka internetowa
+
+== Instalacja
+
+[source,bash]
+----
+git clone https://github.com/example/task-manager.git
+cd task-manager
+npm install
+----
+
+TIP: Upewnij się, że masz zainstalowany Node.js.
+
+== Uruchomienie aplikacji
+
+[source,bash]
+----
+npm start
+----
+
+Po uruchomieniu aplikacja będzie dostępna pod adresem:
+http://localhost:3000
+
+== Struktura projektu
+
+[cols="1,3"]
+|===
+| Folder | Opis
+
+| src/
+| Główna logika aplikacji
+
+| public/
+| Pliki statyczne
+
+| tests/
+| Testy jednostkowe
+|===
+
+== Przykład kodu
+
+[source,javascript]
+----
+function addTask(task) {
+  console.log("Dodano zadanie:", task); // <1>
+}
+addTask("Napisz dokumentację");
+----
+<1> Wyświetla komunikat w konsoli
+
+== API
+
+=== Endpoint: Pobierz zadania
+
+[cols="1,3"]
+|===
+| Metoda | GET
+| URL    | /api/tasks
+|===
+
+Przykładowa odpowiedź:
+
+[source,json]
+----
+[
+  {
+    "id": 1,
+    "name": "Zadanie testowe"
+  }
+]
+----
+
+== Obraz
+
+image::https://via.placeholder.com/300x150[Widok aplikacji]
+
+== Odnośniki
+
+* https://example.com[Strona projektu]
+* https://docs.example.com[Dokumentacja API]
+
+== Przypisy
+
+System wspiera wiele użytkowników jednocześnie.footnote:[Dzięki architekturze REST API.]
+
+== Podsumowanie
+
+AsciiDoc pozwala tworzyć:
+
+* Rozbudowaną dokumentację
+* Dokumenty techniczne
+* Książki i PDF-y
+
+WARNING: Dokumentacja powinna być aktualizowana wraz z rozwojem projektu.
