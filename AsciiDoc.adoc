@@ -1,0 +1,59 @@
+
+---
+
+# 📄 AsciiDoc (.adoc)
+
+```adoc
+= Dokumentacja projektu
+:toc:
+:icons: font
+
+== Wprowadzenie
+To jest przykładowa dokumentacja projektu napisana w AsciiDoc.
+
+== Funkcje
+* Prosta składnia
+* Szybkie tworzenie dokumentów
+* Szerokie wsparcie
+
+== Instalacja
+
+[source,bash]
+----
+git clone https://github.com/example/projekt.git
+cd projekt
+npm install
+----
+
+== Użycie
+
+Uruchom aplikację:
+
+[source,bash]
+----
+npm start
+----
+
+== Tabela
+
+|===
+| Funkcja | Opis
+
+| Start
+| Uruchamia aplikację
+
+| Build
+| Buduje projekt
+|===
+
+== Obraz
+
+image::https://via.placeholder.com/150[Logo]
+
+== Link
+
+https://example.com[Strona projektu]
+
+== Podsumowanie
+
+AsciiDoc oferuje więcej możliwości i lepszą strukturę dla większych dokumentów.
