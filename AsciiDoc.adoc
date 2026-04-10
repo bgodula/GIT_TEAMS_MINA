@@ -48,7 +48,7 @@ npm start
 
 == Obraz
 
-image::https://via.placeholder.com/150[Logo]
+image::https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsus_kqG4Ed1gwc6hgsf23MdAaCmiPXCBrv3WXJq_kB47oN7hcHPjWXzRV9cYM6pgHm2W1G2ccM5ea89kMJrbTtjMWa4C9AX8j7cLmFnz&s=10
 
 == Link
 
